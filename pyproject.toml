@@ -6,9 +6,11 @@ authors = ["danilduborezov <ygra.pl@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+
 [tool.poetry.dependencies]
 python = "^3.11"
-
 
 [build-system]
 requires = ["poetry-core"]
