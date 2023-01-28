@@ -12,5 +12,5 @@ Installation:
 
 ### Game 1 - Even
 
-[![asciicast](https://asciinema.org/a/YxMyOl1pEhtwBEqrkV5Nq1Ydh)](https://asciinema.org/a/YxMyOl1pEhtwBEqrkV5Nq1Ydh)
+[![asciicast](https://asciinema.org/a/555346.png)](https://asciinema.org/a/555346)
 
