@@ -17,3 +17,7 @@ Installation:
 ### Game 2 - Calculator
 
 [![asciicast](https://asciinema.org/a/555416.png)](https://asciinema.org/a/555416)
+
+### Game 3 - Greatest common divisor
+
+[![asciicast](https://asciinema.org/a/555425.png)](https://asciinema.org/a/555425)
