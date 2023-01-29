@@ -15,3 +15,5 @@ Installation:
 [![asciicast](https://asciinema.org/a/555346.png)](https://asciinema.org/a/555346)
 
 ### Game 2 - Calculator
+
+[![asciicast](https://asciinema.org/a/555416.png)](https://asciinema.org/a/555416)
