@@ -3,7 +3,7 @@
 
 <h1 align="center">Brain Games</h1>
 <h3 align="center">Brain games - games for your brain!</h3>
-
+<h4 align="center" style="font-style: italic; color: gray">Set of 5 games with mathematical thinking!</h4>
 Installation:
     
     git clone https://github.com/ygracoord/python-project-49.git
