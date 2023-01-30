@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ygracoord/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/ygracoord/python-project-49/actions)
+<a href="https://codeclimate.com/github/ygracoord/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/542260acafd429a5b283/maintainability" /></a>
 
 <h1 align="center">Brain Games</h1>
 <h3 align="center">Brain games - games for your brain!</h3>
