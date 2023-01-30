@@ -21,3 +21,7 @@ Installation:
 ### Game 3 - Greatest common divisor
 
 [![asciicast](https://asciinema.org/a/555425.png)](https://asciinema.org/a/555425)
+
+### Game 4 - Progression
+
+[![asciicast](https://asciinema.org/a/555673.png)](https://asciinema.org/a/555673)
