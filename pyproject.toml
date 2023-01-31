@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Set of 5 games with mathematical thinking"
 authors = ["danilduborezov <ygra.pl@gmail.com>"]
+repository = "https://github.com/ygracoord/python-project-49"
 readme = "README.md"
 packages = [{include = "brain_games"}]
 
