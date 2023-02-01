@@ -19,16 +19,24 @@ Installation:
 
 ### Game 2 - Calculator
 
+> *Rules: The user receives a random mathematical expression, have to calculate and give the correct answer.*
+
 [![asciicast](https://asciinema.org/a/555416.png)](https://asciinema.org/a/555416)
 
 ### Game 3 - Greatest common divisor
+
+> *Rules: The user receives two random numbers, need to calculate the greatest common divisor.*
 
 [![asciicast](https://asciinema.org/a/555425.png)](https://asciinema.org/a/555425)
 
 ### Game 4 - Progression
 
+> *Rules: The user receives random arithmetic progression with one missing number, have to enter the correct number.*
+
 [![asciicast](https://asciinema.org/a/555673.png)](https://asciinema.org/a/555673)
 
 ### Game 5 - Prime
+
+> *Rules: The user is given a random number and have to answer 'yes' if the number is prime.*
 
 [![asciicast](https://asciinema.org/a/555991.png)](https://asciinema.org/a/555991)
