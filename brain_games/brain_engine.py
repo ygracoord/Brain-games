@@ -13,7 +13,8 @@ def playing(kind_of_game):
         if user_answer == success_answer:
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{success_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{success_answer}'.")
             print(f'Let\'s try again, {name}!')
             return
     print(f'Congratulations, {name}!')
