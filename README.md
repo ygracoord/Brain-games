@@ -13,6 +13,8 @@ Installation:
 
 ### Game 1 - Even
 
+> *Rules: The user is given a random number and have to answer 'yes' if the number is even.*
+
 [![asciicast](https://asciinema.org/a/555346.png)](https://asciinema.org/a/555346)
 
 ### Game 2 - Calculator
