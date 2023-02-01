@@ -17,5 +17,5 @@ def entry_data():
             success_answer = str(progression_list[missed_elem])
             progression_list[missed_elem] = '..'
             final_list = ' '.join(progression_list[:10])
-            user_answer = prompt.secret(f'Question: {final_list} ')
+            user_answer = prompt.string(f'Question: {final_list} ')
             return user_answer, success_answer

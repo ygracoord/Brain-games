@@ -15,6 +15,6 @@ def is_prime(num):
 
 def entry_data():
     random_num = random.randint(2, 100)
-    user_answer = prompt.secret(f'Question: {random_num} ')
+    user_answer = prompt.string(f'Question: {random_num} ')
     success_answer = is_prime(random_num)
     return user_answer, success_answer
