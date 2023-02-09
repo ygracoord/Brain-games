@@ -4,7 +4,7 @@ import prompt
 TITLE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def entry_data():
+def get_question_and_answer():
     random_num = random.randint(1, 100)
     print(f'Question: {random_num}')
     user_answer = prompt.string(f'Your answer: ')

@@ -10,7 +10,7 @@ def run_game(game):
     print(game.TITLE)
 
     for _ in range(ATTEMPTS):
-        user_answer, success_answer = game.entry_data()
+        user_answer, success_answer = game.get_question_and_answer()
 
         if user_answer != success_answer:
             print(f"'{user_answer}' is wrong answer ;(. "
