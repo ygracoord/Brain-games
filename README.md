@@ -21,8 +21,9 @@ Installation:
 ### Game 2 - Calculator
 
 > *Rules: The user receives a random mathematical expression, have to calculate and give the correct answer.*
+>> *Command to start:* **brain-calc**
 
-[![asciicast](https://asciinema.org/a/555416.png)](https://asciinema.org/a/555416)
+[![asciicast](https://asciinema.org/a/558445.png)](https://asciinema.org/a/558445)
 
 ### Game 3 - Greatest common divisor
 
