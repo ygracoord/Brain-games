@@ -1,13 +1,13 @@
 from brain_games.cli import welcome_user
 
 
-def playing(kind_of_game):
+def run_game(game):
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print(kind_of_game.TITLE)
+    print(game.TITLE)
 
     for _ in range(3):
-        user_answer, success_answer = kind_of_game.entry_data()
+        user_answer, success_answer = game.entry_data()
         print(f'Your answer: {user_answer}')
 
         if user_answer == success_answer:
