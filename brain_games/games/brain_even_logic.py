@@ -6,7 +6,8 @@ TITLE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def entry_data():
     random_num = random.randint(1, 100)
-    user_answer = prompt.string(f'Question: {random_num} ')
+    print(f'Question: {random_num}')
+    user_answer = prompt.string(f'Your answer: ')
 
     if random_num % 2 == 0:
         success_answer = 'yes'
