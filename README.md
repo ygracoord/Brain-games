@@ -35,8 +35,9 @@ Installation:
 ### Game 4 - Progression
 
 > *Rules: The user receives random arithmetic progression with one missing number, have to enter the correct number.*
+>> *Command to start:* **brain-progression**
 
-[![asciicast](https://asciinema.org/a/555673.png)](https://asciinema.org/a/555673)
+[![asciicast](https://asciinema.org/a/558449.png)](https://asciinema.org/a/558449)
 
 ### Game 5 - Prime
 
