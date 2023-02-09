@@ -28,8 +28,9 @@ Installation:
 ### Game 3 - Greatest common divisor
 
 > *Rules: The user receives two random numbers, need to calculate the greatest common divisor.*
+>> *Command to start:* **brain-gcd**
 
-[![asciicast](https://asciinema.org/a/555425.png)](https://asciinema.org/a/555425)
+[![asciicast](https://asciinema.org/a/558447.png)](https://asciinema.org/a/558447)
 
 ### Game 4 - Progression
 
