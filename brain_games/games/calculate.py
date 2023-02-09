@@ -4,10 +4,11 @@ import prompt
 TITLE = 'What is the result of the expression?'
 
 
-def entry_data():
+def get_question_and_answer():
     number1, number2 = random.randint(1, 30), random.randint(1, 30)
     operator = random.choice(['+', '-', '*'])
-    user_answer = prompt.string(f'Question: {number1} {operator} {number2} ')
+    print(f'Question: {number1} {operator} {number2}')
+    user_answer = prompt.string(f'Your answer: ')
     success_answer = calculate_result(number1, number2, operator)
     return user_answer, str(success_answer)
 
