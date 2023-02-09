@@ -18,4 +18,4 @@ def get_question_and_answer():
     print(f'Question: {random_num}')
     user_answer = prompt.string('Your answer: ')
     success_answer = is_prime(random_num)
-    return user_answer, success_answer
+    return user_answer, str(success_answer)
