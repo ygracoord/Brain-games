@@ -42,5 +42,6 @@ Installation:
 ### Game 5 - Prime
 
 > *Rules: The user is given a random number and have to answer 'yes' if the number is prime.*
+>> *Command to start:* **brain-prime**
 
-[![asciicast](https://asciinema.org/a/555991.png)](https://asciinema.org/a/555991)
+[![asciicast](https://asciinema.org/a/558456.png)](https://asciinema.org/a/558456)
