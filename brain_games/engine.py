@@ -11,7 +11,6 @@ def run_game(game):
 
     for _ in range(ATTEMPTS):
         user_answer, success_answer = game.entry_data()
-        print(f'Your answer: {user_answer}')
 
         if user_answer != success_answer:
             print(f"'{user_answer}' is wrong answer ;(. "
