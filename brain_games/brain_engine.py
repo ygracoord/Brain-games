@@ -1,20 +1,22 @@
-from brain_games.cli import welcome_user
+import prompt
+
+ATTEMPTS = 3
 
 
 def run_game(game):
     print('Welcome to the Brain Games!')
-    name = welcome_user()
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}')
     print(game.TITLE)
 
-    for _ in range(3):
+    for _ in range(ATTEMPTS):
         user_answer, success_answer = game.entry_data()
         print(f'Your answer: {user_answer}')
 
-        if user_answer == success_answer:
-            print('Correct!')
-        else:
+        if user_answer != success_answer:
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{success_answer}'.")
             print(f'Let\'s try again, {name}!')
             return
+        print('Correct!')
     print(f'Congratulations, {name}!')
