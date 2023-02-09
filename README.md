@@ -14,8 +14,9 @@ Installation:
 ### Game 1 - Even
 
 > *Rules: The user is given a random number and have to answer 'yes' if the number is even.*
+>> *Command to start:* **brain-even**
 
-[![asciicast](https://asciinema.org/a/555346.png)](https://asciinema.org/a/555346)
+[![asciicast](https://asciinema.org/a/558441.png)](https://asciinema.org/a/558441)
 
 ### Game 2 - Calculator
 
