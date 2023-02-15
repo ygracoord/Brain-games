@@ -1,23 +1,17 @@
 import random
-import prompt
+from operator import add, sub, mul
 
 TITLE = 'What is the result of the expression?'
+OPERATIONS = (
+    ('+', add),
+    ('-', sub),
+    ('*', mul),
+)
 
 
 def get_question_and_answer():
-    number1, number2 = random.randint(1, 30), random.randint(1, 30)
-    operator = random.choice(['+', '-', '*'])
-    print(f'Question: {number1} {operator} {number2}')
-    user_answer = prompt.string('Your answer: ')
-    success_answer = calculate_result(number1, number2, operator)
-    return user_answer, str(success_answer)
-
-
-def calculate_result(number1, number2, operator):
-    if operator == '+':
-        result = number1 + number2
-    elif operator == '-':
-        result = number1 - number2
-    else:
-        result = number1 * number2
-    return result
+    number_1, number_2 = random.randint(1, 30), random.randint(1, 30)
+    operation_name, operation_method = random.choice(OPERATIONS)
+    question = f'{number_1} {operation_name} {number_2}'
+    success_answer = operation_method(number_1, number_2)
+    return question, str(success_answer)
