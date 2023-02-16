@@ -11,6 +11,5 @@ def get_question_and_answer():
     missed_elem = random.randint(0, len(progression) - 1)
     success_answer = str(progression[missed_elem])
     progression[missed_elem] = '..'
-    final_progression = ' '.join(progression)
-    question = f'{final_progression}'
+    question = ' '.join(progression)
     return question, success_answer
