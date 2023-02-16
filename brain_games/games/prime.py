@@ -1,5 +1,4 @@
 import random
-import prompt
 
 TITLE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
